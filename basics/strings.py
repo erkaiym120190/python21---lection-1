@@ -136,12 +136,7 @@ string = 'hello world'
 
 # ДОП ИНФА
 
-a = 5
-b = 5
-print(id(a))
-print(id(b))
-print(hash(a))
-print(hash(b))
+#  
 
 
 
