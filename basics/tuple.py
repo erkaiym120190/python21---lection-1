@@ -11,7 +11,8 @@ tuple44 = tuple([1,2,3]) #1,2,3
 tuple4 = 1,2,3 # 1,2,3
 tuple5 = (5) # 5 (int)
 tuple6 = 5, # (5, ) tuple budeet
-tuple7 = 'hello'
+tuple7 = 'hello',
+
 
 "============Методы tuple=============="
 
