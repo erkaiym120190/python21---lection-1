@@ -176,16 +176,51 @@
 Вывод: 5 8
 [5, 7, 8, 1, 3, 0, ‘Makers’]
 """
-nums = input('Введите цифры через запятую: ').split(',')
-print(nums[0], nums[-1])
-nums.pop()
-nums.append('Makers')
-print(nums)
+# # 1 sposob
+
+# nums_str = input('Введите цифры через запятую: ').split(',')
+# nums_int = []
+# for num in nums_str:
+#     nums_int.append(int(num))
+# print(nums_int[0], nums_int[-1])
+# nums_int.pop()
+# nums_int.append('Makers')
+# print(nums_int)
+
+# # 2 sposob
+
+# nums_str = input('Введите цифры через запятую: ').split(',')
+# nums_int = []
+# for num in nums_str:
+#     nums_int.append(int(num))
+# print(nums_int[0], nums_int[-1])
+# nums_int[-1] = 'Makers'
+# print(nums_int)
+
 """
 2) Напишите программу, которая генерирует 10 случайных чисел, добавляет их в список и возвращает вам список этих чисел в отсортированном виде в порядке возрастания.
 """
-# писать код здесь
+# from random import sample
+
+# nums = sample(range(0, 10), k=10)
+# nums.sort()
+# print(nums)
+
 """
 3) Напишите программу, которая заполняет список словами, введенными с клавиатуры, измеряет длину каждого слова и добавляет полученное значение в другой список. Например, список слов – ['yes', 'no', 'maybe', 'ok', 'what'], список длин – [3, 2, 5, 2, 4]. Оба списка должны выводиться на экран.
 """
-# писать код здесь
+list_length = int(input('Введите количество слов: '))
+words = []
+word_length = []
+for i in range(list_length):
+    word = input('Введите слово: ')
+    words.append(word)
+
+for i in words:
+    word_length.append(len(i))
+
+print(words)
+print(word_length)
+
+
+
