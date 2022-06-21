@@ -72,18 +72,32 @@
 #     print(list_[i])
 
 
-# Task 7?????????????????????????????????????????????/
+# Task 7
 
-    # age = int(input())
-    # age < 18: raise 
-    # except ValueError:
-    #     print('Доступ запрещен')
-    # except TypeError:
-    #     print('Введён некорректный возраст')
-    # else:
-    #     print('Спасибо')
-    # finally:
-    #     print('До свидания!')
+# В блоке try запросите у пользователя ввод его возраста age = int(input()). 
+# Затем в том же блоке проверьте его возраст на совершеннолетие. 
+# Если пользователь несовершеннолетний(младше 18), выбросите исключение ValueError с текстом:
+# Доступ запрещён 
+# Обработайте это исключение и другое исключение, 
+# которое возникает при вводе текста вместо возраста, выдав сообщение:
+# Введён некорректный возраст 
+# Если ошибок не возникло распечатайте сообщение:
+# Спасибо 
+# и, наконец, распечатайте сообщение:
+# До свидания! 
+# вне зависимости от того, произошла ошибка или нет.
+
+# try:
+#     age = int(input())
+    
+#     if age < 18:
+#         raise ValueError('Доступ запрещён')
+# except ValueError:
+#     print('Введён некорректный возраст')
+# else:
+#     print('Спасибо')
+# finally:
+#     print('До свидания!')
 
 
 # Task 8
@@ -143,4 +157,41 @@
 #     except:
 #         raise Exception('Данный элемент не является числом!')
 
+
+# Class work task 1
+
+# try:
+#     inp1 = input()
+#     inp2 = input()
+#     print(int(inp1) + int(inp2))
+# except:
+#     print(inp1 + inp2)
+
+
+# Class work task 2
+
+# dict_ = {1: 'Бегимай', 2: 'Канатбек', 3:'Айдин', 4: 'Эркайым'}
+# dict_ = {value: key for key, value in dict_.items()}
+# # print(dict_)
+
+# try:
+#     username = input('Введите имя пользователя: ')
+#     ID = dict_[username]
+#     print(ID)
+# except KeyError:
+#     print('Введенного юзера нет в базе данных')
+# else:
+#     print(f'Добро пожаловать, {username}!')
+# finally:
+#     print('Спасибо!')
+
+
+# Class work task 3
+
+# try:
+#     age = int(input('Сколько вам лет? '))
+#     if age <= 0: 
+#         raise Exception('Ваш возраст должен быть больше нуля!')
+# except ValueError:
+#     print('Введите число, а не строку!')
 
