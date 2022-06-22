@@ -185,3 +185,6 @@ def translate(string):
     return string.translate(dictionary)
 
 print(translate(input("Введите слово: ")))
+
+
+
