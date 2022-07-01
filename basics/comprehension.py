@@ -22,13 +22,13 @@
 # print(invitations)
 
 
-# list1 = [10, 5, -6, -8, 12, 20, 3, 14, 4]
+# list1 = [10, 5, -6, -8, 12, 20, 3, 14, 4] 
 # list2 = [num for num in list1 if num % 2 == 0]
 # print(list2)
 
 # ]
 
-list1 = [10, 5, -6, -8, 12, 20, 3, 14, 4]
+# list1 = [10, 5, -6, -8, 12, 20, 3, 14, 4]
 # list2 = [num for num in list1 if num % 2 == 0 and num > 0]
 # print(list2)
 
@@ -48,7 +48,7 @@ list1 = [10, 5, -6, -8, 12, 20, 3, 14, 4]
 # list_ = [num if num < 0 else num ** 2 for num in list_]
 # print(list_)
 
-"============Comprehension================"
+# "============Comprehension================"
 # comprehension - генерация последовательностей в одну строку используя цикл
 
 # 1. результат for элемент in итерируемый объект
@@ -177,5 +177,7 @@ list1 = [10, 5, -6, -8, 12, 20, 3, 14, 4]
 # dict.items() # вообще все
 
 # dict.pop(key)
+
+
 
 

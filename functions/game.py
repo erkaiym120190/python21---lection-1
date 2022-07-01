@@ -1,10 +1,10 @@
-# a = str(4331)
+# a = input('Введите любое число: ')
 
-# for i in a:
-#     if (a[-1]) < (a[-2]) and (a[-2]) < (a[-3]) and (a[-3]) < (a[-4]):
-#         print('yes')
-#     else:
-#         print('no')
+
+# if (a[-1]) < (a[-2]) and (a[-2]) < (a[-3]) and (a[-3]) < (a[-4]):
+#     print('yes')
+# else:
+#     print('no')
 
 
 # a = 4311
@@ -47,3 +47,4 @@
 # a, b, c = 0, 2, 5
 # a, b, c = a + b, c - b, a + b + c
 # print(a, b, c)
+
